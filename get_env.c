@@ -41,7 +41,7 @@ char *get_env(const char *name)
 			value = strtok(variable, "=");
 			value = strtok(NULL, "\n ");
 			/* Handle the case where the value is NULL */
-			if (value == NUL)
+			if (value == NULL)
 			{
 				errors(4);
 				exit(EXIT_FAILURE);
