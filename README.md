@@ -26,7 +26,6 @@ The Simple Shell is a basic command-line shell that can execute simple Unix comm
 - Task 15: Comments (Advanced)
 - Task 16: File as input (Advanced)
 
-
 ## Getting Started
 These instructions will help you set up and run the simple shell on your local machine.
 
@@ -43,3 +42,4 @@ To compile the shell, use the following command:
 ```bash
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 ```
+
